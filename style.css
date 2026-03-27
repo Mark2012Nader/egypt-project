@@ -1,0 +1,110 @@
+html {
+    background-image: url('background.webp');
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background: rgba(255, 255, 255, 0.74);
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    font-family: 'raleway';
+    padding: 20px;
+    border-radius: 10px;
+
+}
+nav ul {
+    background-color: rgb(38, 0, 255);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+nav ul li {
+    display: inline;
+    color: rgb(0, 204, 255);
+    margin-left: 10px;
+    list-style-type: none;
+   
+}
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+
+h1,
+p {
+    text-align: center;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin: 1em 0.2em;
+}
+
+/* single-line text, checkbox, and button */
+input,
+select,
+textarea {
+    display: block;
+    width: 100%;
+    padding: .3em;
+    font-size: 20px;
+    background-color: #fbfbfb;
+    border: solid 1px #CCC;
+    resize: vertical;
+    border-radius: 10px;
+}
+
+input[type="email"],
+input[type="tel"] {
+    margin-bottom: 1em;
+}
+
+textarea {
+    min-height: 180px;
+}
+
+select {
+    color: indigo;
+}
+
+option {
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+}
+
+input[type=checkbox],
+input[type=radio] {
+    display: inline;
+    width: auto;
+}
+
+.inline-label {
+    display: inline;
+    width: auto;
+
+}
+input[type=submit]:hover,
+input[type=submit]:focus{
+    background-color: green;
+}
+input[type=reset]:hover,
+input[type=reset]:focus{
+    background-color: red;
+}
+input[type=submit],
+input[type=reset]{
+    background-color: rgb(27, 44, 144);
+    margin: 1em 0 0 ;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
